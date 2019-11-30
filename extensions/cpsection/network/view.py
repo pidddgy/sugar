@@ -338,6 +338,12 @@ class Network(SectionView):
         radio_info.set_alignment(0, 0)
         radio_info.set_line_wrap(True)
         radio_info.show()
+
+        debug = Gtk.Label(label=('debug info here'))
+        debug.set_alignment(0, 0)
+        debug.set_line_wrap(True)
+        debug.show()
+
         box_wireless.pack_start(radio_info, False, True, 0)
 
         box_radio = Gtk.HBox(spacing=style.DEFAULT_SPACING)

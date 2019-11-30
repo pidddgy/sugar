@@ -345,6 +345,7 @@ class Network(SectionView):
         debug.show()
 
         box_wireless.pack_start(radio_info, False, True, 0)
+        box_wireless.pack_start(debug, False, True, 0)
 
         box_radio = Gtk.HBox(spacing=style.DEFAULT_SPACING)
         self._button = Gtk.CheckButton()

@@ -42,10 +42,10 @@ logger.cleanup()
 logger.start('shell')
 
 
-import logging
+# import logging
 
 
-logging.debug('aaaa')
+# logging.debug('aaaa')
 
 def __setitem__(self, key, value):
     # set_value() aborts the program on an unknown key

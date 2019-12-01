@@ -26,7 +26,6 @@ from sugar3.graphics.icon import Icon
 from sugar3.graphics import style
 from sugar3.graphics.alert import Alert
 from sugar3 import logger
-import logging
 
 from jarabe.controlpanel.sectionview import SectionView
 from jarabe.controlpanel.inlinealert import InlineAlert
@@ -38,6 +37,13 @@ ICON = 'module-network'
 TITLE = _('Network')
 
 _APPLY_TIMEOUT = 3000
+
+logger.cleanup()
+logger.start('shell')
+
+
+import logging
+
 
 logging.debug('aaaa')
 

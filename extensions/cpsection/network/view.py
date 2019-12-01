@@ -39,7 +39,7 @@ TITLE = _('Network')
 _APPLY_TIMEOUT = 3000
 
 # logger.cleanup()
-logger.start('shell')
+logger.start('network')
 
 
 import logging

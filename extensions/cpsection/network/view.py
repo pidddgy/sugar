@@ -39,7 +39,7 @@ TITLE = _('Network')
 
 _APPLY_TIMEOUT = 3000
 
-
+logging.debug('aaaa')
 
 def __setitem__(self, key, value):
     # set_value() aborts the program on an unknown key

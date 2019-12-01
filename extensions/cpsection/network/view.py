@@ -39,10 +39,6 @@ TITLE = _('Network')
 
 _APPLY_TIMEOUT = 3000
 
-logger.start('network')
-
-logging.debug('test')
-
 
 
 def __setitem__(self, key, value):

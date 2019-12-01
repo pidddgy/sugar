@@ -42,10 +42,10 @@ _APPLY_TIMEOUT = 3000
 # logger.start('network')
 
 
-import logging
+# import logging
 
 
-logging.debug('aaaa')
+# logging.debug('aaaa')
 
 def __setitem__(self, key, value):
     # set_value() aborts the program on an unknown key
